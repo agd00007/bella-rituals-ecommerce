@@ -30,7 +30,7 @@ The application provides a complete online shopping experience, allowing users t
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/agd00007/bella-rituals-ecommerce.git
 ```
 
 Install the dependencies:
