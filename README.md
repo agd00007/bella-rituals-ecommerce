@@ -82,6 +82,25 @@ From the `backend` folder:
 ```bash
 npm start
 ```
+## 📁 Project Structure
+
+```text
+bella-rituals-ecommerce/
+│
+├── backend/              # Node.js, Express and MongoDB backend
+├── public/               # Public and static assets
+├── src/                  # React application source code
+│
+├── index.html            # Main HTML entry point
+├── package.json          # Frontend dependencies and scripts
+├── vite.config.js        # Vite configuration
+├── tailwind.config.js    # Tailwind CSS configuration
+├── postcss.config.cjs    # PostCSS configuration
+├── eslint.config.js      # ESLint configuration
+└── README.md             # Project documentation
+```
+
+The application follows a separated frontend/backend architecture. The React frontend is located in `src`, while the Node.js and Express API and MongoDB connection are contained in `backend`.
 
 ### 6. Start the frontend
 
