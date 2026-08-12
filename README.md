@@ -109,3 +109,19 @@ Open another terminal, return to the project root and run:
 ```bash
 npm run dev
 ```
+## 👩‍💻 My Contribution
+
+This project was developed as a team project for the Higher Technician Degree in Web Application Development (DAW).
+
+My main responsibilities were:
+
+- Development of the complete frontend using React.
+- Creation and organization of reusable components.
+- Implementation of the application's user interfaces.
+- Development of navigation between the different sections of the application.
+- Implementation of responsive design for different screen sizes.
+- Integration of the frontend with the backend and its API.
+- Handling and displaying data received from the backend.
+- Implementation of the interaction between the user interface and the application's server-side functionality.
+
+This project allowed me to gain practical experience developing a complete React frontend and integrating it with a backend in a full-stack application.
