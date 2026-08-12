@@ -25,6 +25,16 @@ The application provides a complete online shopping experience, allowing users t
 - **React Icons** - Icons and visual elements
 - **Swiper** - Interactive sliders and carousels
 
+### Backend
+
+- **Node.js** - Backend runtime environment
+- **Express** - REST API and server-side logic
+- **MongoDB** - Database for users and product data
+- **Mongoose** - MongoDB object modeling
+- **bcryptjs** - Password hashing and authentication
+- **CORS** - Communication between frontend and backend
+- **Axios** - HTTP requests
+
 ## 🚀 Installation
 
 Clone the repository:
