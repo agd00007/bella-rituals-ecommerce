@@ -1,18 +1,46 @@
-# React + Vite
+# 💄 Bella Ritual
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bella Ritual is a cosmetics e-commerce web application developed as part of my Higher Technician Degree in Web Application Development (DAW).
 
-Currently, two official plugins are available:
+The application provides a complete online shopping experience, allowing users to browse cosmetic products, filter and search the catalog, manage their shopping cart, create an account, and place orders.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- User registration and authentication
+- Product catalog
+- Product search and filtering
+- Product detail pages
+- Shopping cart management
+- Order management
+- Responsive design for desktop, tablet and mobile devices
+- Administration interface
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- ## 🛠️ Technologies
 
-Note: This will impact Vite dev & build performances.
+- **React** - Frontend development and reusable components
+- **Vite** - Development and build tool
+- **Tailwind CSS** - Styling and responsive design
+- **React Router** - Application routing and navigation
+- **React Admin** - Administration interface
+- **React Icons** - Icons and visual elements
+- **Swiper** - Interactive sliders and carousels
 
-## Expanding the ESLint configuration
+## 🚀 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
