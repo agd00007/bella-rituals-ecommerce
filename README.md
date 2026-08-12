@@ -37,19 +37,55 @@ The application provides a complete online shopping experience, allowing users t
 
 ## 🚀 Installation
 
-Clone the repository:
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/agd00007/bella-rituals-ecommerce.git
 ```
 
-Install the dependencies:
+### 2. Install frontend dependencies
+
+From the project root:
 
 ```bash
 npm install
 ```
 
-Start the development server:
+### 3. Install backend dependencies
+
+Go to the backend folder:
+
+```bash
+cd backend
+```
+
+Then install the backend dependencies:
+
+```bash
+npm install
+```
+
+### 4. Start MongoDB
+
+Make sure MongoDB is running locally.
+
+The application connects to:
+
+```text
+mongodb://127.0.0.1:27017/makeupDB
+```
+
+### 5. Start the backend
+
+From the `backend` folder:
+
+```bash
+npm start
+```
+
+### 6. Start the frontend
+
+Open another terminal, return to the project root and run:
 
 ```bash
 npm run dev
