@@ -1,12 +1,15 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose");
 
+const MONGODB_URI =
+  process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/makeupDB";
 
-mongoose.connect('mongodb://127.0.0.1:27017/makeupDB', {
-  
-})
-const db = mongoose.connection
+mongoose
+  .connect(MONGODB_URI)
+  .then(() => {
+    console.log("MongoDB conectado correctamente");
+  })
+  .catch((error) => {
+    console.error("Error conectando a MongoDB:", error);
+  });
 
-db.on('error', console.error.bind(console, 'Error de conexión a MongoDB:'))
-db.once('open', () => console.log('Conectado a MongoDB correctamente'))
-
-module.exports = mongoose
+module.exports = mongoose;

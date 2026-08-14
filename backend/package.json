@@ -2,9 +2,9 @@
   "name": "proyecto-integrado",
   "version": "1.0.0",
   "description": "Backend de productos de maquillaje",
-  "main": "server.js",
+  "main": "Server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node Server.js"
   },
   "keywords": [],
   "author": "",
