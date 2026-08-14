@@ -20,8 +20,7 @@ app.get("/products", async (req, res) => {
     const { brand, productType, refresh } = req.query;
 
     if (refresh === "true") {
-      let url = "http://makeup-api.herokuapp.com/api/v1/products.json?";
-
+      let url = "https://makeup-api.herokuapp.com/api/v1/products.json?";
       if (brand) {
         url += `brand=${brand}&`;
       }
