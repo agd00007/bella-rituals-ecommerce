@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+
 import Catalog from "./components/Catalog/Catalog";
 import Carousel from "./components/Carousel/Carousel";
 import ProductsListPage from "./components/ProductsListPage/ProductsListPage";
@@ -14,6 +15,7 @@ function MainApp() {
   return (
     <>
       <Header />
+
       <Routes>
         <Route
           path="/"
@@ -24,9 +26,13 @@ function MainApp() {
             </>
           }
         />
+
         <Route path="/products/:type" element={<ProductsListPage />} />
+
         <Route path="/cart" element={<Cart />} />
+
         <Route path="/login" element={<Register />} />
+
         <Route path="/registerPage" element={<RegisterPage />} />
       </Routes>
     </>
@@ -39,6 +45,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/admin/*" element={<AdminApp />} />
+
           <Route path="/*" element={<MainApp />} />
         </Routes>
       </Router>
